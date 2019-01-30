@@ -16,7 +16,7 @@ public class HelloServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
 			throws ServletException, IOException {
 		PrintWriter writer = response.getWriter();
-		writer.println("Vive le Phô");
+		writer.println("Vive le Phô et sans coca zero");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response)
